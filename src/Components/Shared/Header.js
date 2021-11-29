@@ -26,14 +26,14 @@ const Header = () => {
                     placement="end"
                 >
                     <Offcanvas.Header closeButton>
-                        <Offcanvas.Title id="offcanvasNavbarLabel">Explore More</Offcanvas.Title>
+                        <Offcanvas.Title id="offcanvasNavbarLabel" className="fs-1">Explore More</Offcanvas.Title>
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <Nav.Link><NavLink to="/home">Home</NavLink></Nav.Link>
-                            <Nav.Link><NavLink to="/projects">My Projects</NavLink></Nav.Link>
-                            <Nav.Link><NavLink to="/about">About Me</NavLink></Nav.Link>
-                            <Nav.Link><NavLink to="/contact">Contact Me</NavLink></Nav.Link>
+                            <NavLink className="fs-1 mb-3 text-primary text-decoration-none" to="/home"><i class="fas fa-home"></i></NavLink>
+                            <NavLink className="fs-2 mb-3 text-primary text-decoration-none" to="/projects">My Projects</NavLink>
+                            <NavLink className="fs-2 mb-3 text-primary text-decoration-none" to="/about">My Profile</NavLink>
+                            <NavLink className="fs-2 text-primary text-decoration-none" to="/contact">Contact Me</NavLink>
                         </Nav>
                     </Offcanvas.Body>
                 </Navbar.Offcanvas>

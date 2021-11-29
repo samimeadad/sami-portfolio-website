@@ -1,6 +1,6 @@
 import React from 'react';
 import { ExternalLink } from 'react-external-link';
-import logo from '../../images/logo.png';
+import profile from '../../images/profile.png';
 
 //component for footer
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="bg-dark p-5 text-light">
             <div className="text-center mb-3">
                 <h1>Sami Meadad Choudhury</h1>
-                <img style={ { width: '150px' } } src={ logo } alt="logoImage" />
+                <img style={ { width: '150px' } } src={ profile } alt="logoImage" />
             </div>
             <div className="container mb-5">
                 <h4 className="text-justify text-light">
