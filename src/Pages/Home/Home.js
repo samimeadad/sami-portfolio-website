@@ -55,7 +55,9 @@ const Home = () => {
                 <h1 className="my-5 fw-bold text-primary">Know More About Me</h1>
                 <Row className="my-5 gy-5">
                     <Col xs={ 12 } sm={ 12 } md={ 6 } lg={ 6 }>
-                        <Button className="btn btn-danger fw-bold fs-4 fy-5">Download My Resume</Button>
+                        <ExternalLink download href="https://drive.google.com/file/d/1DsUhL6cfpOjVEJnfgvO3c5BPBQzlDGKW/view?usp=sharing">
+                            <Button className="btn btn-danger fw-bold fs-4 fy-5">Download My Resume</Button>
+                        </ExternalLink>
                     </Col>
                     <Col xs={ 12 } sm={ 12 } md={ 6 } lg={ 6 }>
                         <div className="text-center text-light">
@@ -133,7 +135,7 @@ const Home = () => {
                                 <Card.Title className="text-primary fw-bold">Dine India Restaurant</Card.Title>
                                 <hr />
                                 <Card.Text>
-                                    Responsive websites built for a restaurant situated in Tywyn, England, UK.
+                                    Responsive websites built for a restaurant situated in Tywyn, England, UK. People can order online through this website.
                                 </Card.Text>
                                 <hr />
                                 <Card.Text>
