@@ -1,6 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-import { Button, Form } from 'react-bootstrap';
+import { Button, Container, Form } from 'react-bootstrap';
 
 const Contact = () => {
     const sendEmail = ( e ) => {
@@ -14,9 +14,9 @@ const Contact = () => {
         e.target.reset();
     };
     return (
-        <section className="my-5">
+        <Container className="my-5">
             <h1 className="my-5 text-primary">Please Write to Me</h1>
-            <Form onSubmit={ sendEmail } className="form w-50 mx-auto">
+            <Form onSubmit={ sendEmail } className="form w-75 mx-auto">
                 <Form.Group className="mb-3" controlId="formBasicSubject">
                     <Form.Control type="text" placeholder="Subject" name='subject' />
                 </Form.Group>
@@ -30,14 +30,14 @@ const Contact = () => {
                     </Form.Text>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                    <Form.Label>Your Message</Form.Label>
+                    <Form.Label>Please Write Your Message Here</Form.Label>
                     <Form.Control as="textarea" rows={ 5 } name='message' />
                 </Form.Group>
                 <Button variant="primary" type="submit">
                     Send Mail
                 </Button>
             </Form>
-        </section >
+        </Container >
     );
 };
 
