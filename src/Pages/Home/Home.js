@@ -13,7 +13,7 @@ const Home = () => {
                 <h1 className="mb-5 fw-bold text-primary">Successful Full-stack Web Development</h1>
                 <img src={ avatar } alt="avatar" className="img-fluid mb-5" style={ { width: "300px" } } />
                 <h5 className="w-75 mx-auto mb-5">Hello, I am <span className="text-primary fw-bold">Sami</span>, an experienced IT & Telecom professional with 15 years of experience currently practicing Full-stack Web Development with <span className="text-primary fw-bold">MERN</span> Stack. Please download my resume for further details. </h5>
-                <Row className="gx-3 gy-5">
+                <Row className="g-5 mx-auto" style={ { width: '90%' } }>
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                         <Card style={ { width: '20rem', backgroundColor: '#F4F6F6' } } className="h-100 p-5 rounded-3 text-center">
                             <Card.Img variant="top" src={ featureWeb } className="img-fluid" />
