@@ -125,6 +125,110 @@ const Home = () => {
             <hr />
             <section className="my-5">
                 <h1 className="mb-3 fw-bold text-primary">Featured Projects</h1>
+                <h5 className="w-75 mx-auto">I have worked on the following projects:</h5>
+                <Row className="mt-2 mb-5 gx-3 gy-5">
+                    <Col xs={ 12 } sm={ 12 } md={ 3 } lg={ 3 }>
+                        <Card style={ { width: '20rem', backgroundColor: '#F4F6F6' } } className="h-100 p-2 rounded-3 text-center">
+                            <Card.Body>
+                                <Card.Title className="text-primary fw-bold">Dine India Restaurant</Card.Title>
+                                <hr />
+                                <Card.Text>
+                                    Responsive websites built for a restaurant situated in Tywyn, England, UK.
+                                </Card.Text>
+                                <hr />
+                                <Card.Text>
+                                    <span className="fw-bold">Technology Used:</span> Wordpress Content Management Systems
+                                </Card.Text>
+                                <hr />
+                            </Card.Body>
+                            <Card.Footer className="w-100">
+                                <ExternalLink href="https://www.dineindia.co.uk" target="_blank" rel="noreferrer"><Button variant="primary" className="btn btn-primary w-100">Link to the Live Site</Button></ExternalLink>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                    <Col xs={ 12 } sm={ 12 } md={ 3 } lg={ 3 }>
+                        <Card style={ { width: '20rem', backgroundColor: '#F4F6F6' } } className="h-100 p-2 rounded-3 text-center">
+                            <Card.Body>
+                                <Card.Title className="text-primary fw-bold">Watch Your Wrist</Card.Title>
+                                <hr />
+                                <Card.Text>
+                                    Responsive websites built as an assignment under Complete Web Development Course with Jhankar Mahbub by Programming Hero.
+                                </Card.Text>
+                                <hr />
+                                <Card.Text>
+                                    <span className="fw-bold">Technology Used in Front-end:</span> HTML, CSS, Material UI CSS Framework, JavaScript, React.js, Firebase Authentication System, Firebase Hosting Service
+                                </Card.Text>
+                                <hr />
+                                <Card.Text>
+                                    <span className="fw-bold">Technology Used in Back-end:</span> Node.js, Express.js, MongoDB Database System, Heroku Hosting Service
+                                </Card.Text>
+                                <hr />
+                                <Card.Text>
+                                    <ExternalLink href="https://github.com/samimeadad/niche-website-client-side-samimeadad" target="_blank" rel="noreferrer"><span className="fw-bold">Front-end GitHub Link:</span></ExternalLink>
+                                    <br />
+                                    <ExternalLink href="https://github.com/samimeadad/niche-website-server-side-samimeadad" target="_blank" rel="noreferrer"><span className="fw-bold">Back-end GitHub Link:</span></ExternalLink>
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer className="w-100">
+                                <ExternalLink href="https://watch-your-wrist.web.app" target="_blank" rel="noreferrer"><Button variant="primary" className="btn btn-primary w-100">Link to the Live Site</Button></ExternalLink>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                    <Col xs={ 12 } sm={ 12 } md={ 3 } lg={ 3 }>
+                        <Card style={ { width: '20rem', backgroundColor: '#F4F6F6' } } className="h-100 p-2 rounded-3 text-center">
+                            <Card.Body>
+                                <Card.Title className="text-primary fw-bold">Bay View Hotel & Resort</Card.Title>
+                                <hr />
+                                <Card.Text>
+                                    Responsive websites built as an assignment under Complete Web Development Course with Jhankar Mahbub by Programming Hero.
+                                </Card.Text>
+                                <hr />
+                                <Card.Text>
+                                    <span className="fw-bold">Technology Used in Front-end:</span> HTML, CSS, Material UI CSS Framework, JavaScript, React.js, Firebase Authentication System, Firebase Hosting Service
+                                </Card.Text>
+                                <hr />
+                                <Card.Text>
+                                    <span className="fw-bold">Technology Used in Back-end:</span> Node.js, Express.js, MongoDB Database System, Heroku Hosting Service
+                                </Card.Text>
+                                <hr />
+                                <Card.Text>
+                                    <ExternalLink href="https://github.com/samimeadad/tourism-or-delivery-website-client-side-samimeadad" target="_blank" rel="noreferrer"><span className="fw-bold">Front-end GitHub Link:</span></ExternalLink>
+                                    <br />
+                                    <ExternalLink href="https://github.com/samimeadad/tourism-or-delivery-website-server-side-samimeadad" target="_blank" rel="noreferrer"><span className="fw-bold">Back-end GitHub Link:</span></ExternalLink>
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer className="w-100">
+                                <ExternalLink href="https://tourism-website-samimeadad.web.app/" target="_blank" rel="noreferrer"><Button variant="primary" className="btn btn-primary w-100">Link to the Live Site</Button></ExternalLink>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                    <Col xs={ 12 } sm={ 12 } md={ 3 } lg={ 3 }>
+                        <Card style={ { width: '20rem', backgroundColor: '#F4F6F6' } } className="h-100 p-2 rounded-3 text-center">
+                            <Card.Body>
+                                <Card.Title className="text-primary fw-bold">Dream Baby Fertility Center</Card.Title>
+                                <hr />
+                                <Card.Text>
+                                    Responsive websites built as an assignment under Complete Web Development Course with Jhankar Mahbub by Programming Hero.
+                                </Card.Text>
+                                <hr />
+                                <Card.Text>
+                                    <span className="fw-bold">Technology Used in Front-end:</span> HTML, CSS, Material UI CSS Framework, JavaScript, React.js, Firebase Authentication System, Firebase Hosting Service
+                                </Card.Text>
+                                <hr />
+                                <Card.Text>
+                                    <span className="fw-bold">Technology Used in Back-end:</span> Node.js, Express.js, MongoDB Database System, Heroku Hosting Service
+                                </Card.Text>
+                                <hr />
+                                <Card.Text>
+                                    <ExternalLink href="https://github.com/samimeadad/healthcare-related-website-samimeadad" target="_blank" rel="noreferrer"><span className="fw-bold">Front-end GitHub Link:</span></ExternalLink>
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer className="w-100">
+                                <ExternalLink href="https://healthcare-website-samimeadad.web.app/" target="_blank" rel="noreferrer"><Button variant="primary" className="btn btn-primary w-100">Link to the Live Site</Button></ExternalLink>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                </Row>
             </section>
             <hr />
         </Container >
