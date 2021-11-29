@@ -1,21 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { Button, Container, Form } from 'react-bootstrap';
 
 const Contact = () => {
+    const [ success, setSuccess ] = useState( false );
+    const [ successMessage, setSuccessMessage ] = useState( '' );
+    const [ error, setError ] = useState( '' );
+
     const sendEmail = ( e ) => {
         e.preventDefault();
         emailjs.sendForm( 'service_wkovuj4', 'template_0bj3nlo', e.target, 'user_NTt1KPYzFQZfll2DEFxve' )
             .then( ( result ) => {
-                console.log( result.text );
+                setSuccess( true );
+                setSuccessMessage( "Your mail is sent successfully" );
             }, ( error ) => {
-                console.log( error.text );
+                setSuccess( false );
+                setError( error.text );
             } );
         e.target.reset();
     };
     return (
         <Container className="my-5">
             <h1 className="my-5 text-primary">Please Write to Me</h1>
+            {
+                success ? <h4 className="text-success">{ successMessage }</h4> : <h4 className="text-danger">{ error }</h4>
+            }
             <Form onSubmit={ sendEmail } className="form w-75 mx-auto">
                 <Form.Group className="mb-3" controlId="formBasicSubject">
                     <Form.Control type="text" placeholder="Subject" name='subject' />
