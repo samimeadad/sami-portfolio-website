@@ -3,6 +3,7 @@ import './App.css';
 import Footer from "./Components/Shared/Footer";
 import Header from "./Components/Shared/Header";
 import About from "./Pages/About/About";
+import Blogs from "./Pages/Blogs/Blogs";
 import Contact from "./Pages/Contact/Contact";
 import ErrorPage from "./Pages/ErrorPage/ErrorPage";
 import Home from "./Pages/Home/Home";
@@ -17,6 +18,7 @@ function App () {
           <Route exact path="/" element={ <Home /> } />
           <Route exact path="/home" element={ <Home /> } />
           <Route exact path="/projects" element={ <Projects /> } />
+          <Route exact path="/blogs" element={ <Blogs /> } />
           <Route exact path="/about" element={ <About /> } />
           <Route exact path="/contact" element={ <Contact /> } />
           <Route exact path="*" element={ <ErrorPage /> } />

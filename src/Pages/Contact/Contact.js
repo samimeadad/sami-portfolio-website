@@ -21,7 +21,7 @@ const Contact = () => {
     };
     return (
         <Container className="my-5">
-            <h1 className="my-5 text-primary">Please Write to Me</h1>
+            <h1 className="my-5 text-primary">Thanks for taking the time to reach out. How may I help you today?</h1>
             {
                 success ? <h4 className="text-success">{ successMessage }</h4> : <h4 className="text-danger">{ error }</h4>
             }

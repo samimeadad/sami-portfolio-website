@@ -10,50 +10,17 @@ const Home = () => {
     return (
         <Container className="my-5 overflow-hidden">
             <section className="my-5">
-                <h1 className="mb-5 fw-bold text-primary">Successful Full-stack Web Development</h1>
-                <img src={ avatar } alt="avatar" className="img-fluid mb-5" style={ { width: "300px" } } />
-                <h5 className="w-75 mx-auto mb-5">Hello, I am <span className="text-primary fw-bold">Sami</span>, an experienced IT & Telecom professional with 15 years of experience currently practicing Full-stack Web Development with <span className="text-primary fw-bold">MERN</span> Stack. Please download my resume for further details. </h5>
-                <Row className="g-5 mx-auto" style={ { width: '90%' } }>
-                    <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
-                        <Card style={ { width: '20rem', backgroundColor: '#F4F6F6' } } className="h-100 p-5 rounded-3 text-center">
-                            <Card.Img variant="top" src={ featureWeb } className="img-fluid" />
-                            <Card.Body>
-                                <Card.Title>Front-end Development</Card.Title>
-                                <Card.Text>
-                                    Responsive websites built for an optimal user experience that achieves your business goals.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
-                        <Card style={ { width: '20rem', backgroundColor: '#F4F6F6' } } className="h-100 p-5 rounded-3 text-center">
-                            <Card.Img variant="top" src={ featureTools } className="img-fluid" />
-                            <Card.Body>
-                                <Card.Title>Performance, SEO, &
-                                    accessibility testing</Card.Title>
-                                <Card.Text>
-                                    Make your website fast, easy to find, and reach the widest audience possible.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
-                        <Card style={ { width: '20rem', backgroundColor: '#F4F6F6' } } className="h-100 p-5 rounded-3 text-center">
-                            <Card.Img variant="top" src={ featureWordpress } className="img-fluid" />
-                            <Card.Body>
-                                <Card.Title>WordPress websites</Card.Title>
-                                <Card.Text>
-                                    Manage your website using the web's most popular content management system.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
+                <h1 className="mb-5 fw-bold text-primary">Successful Full-stack Web Development at Your Footstep</h1>
+                <img src={ avatar } alt="avatar" className="img-fluid" style={ { width: "300px" } } />
+                <div className="w-75 mx-auto my-5">
+                    <h3 className="mb-3">Hello, my name is <span className="text-primary fw-bold">Sami</span>. Thanks for visiting my portfolio website.</h3>
+                    <h5 className="mb-5">I am an experienced IT & Telecom professional with 15 years of experience currently practicing Full-stack Web Development with <span className="text-primary fw-bold">MERN</span> Stack. Please download my resume for further details. </h5>
+                </div>
             </section>
             <hr />
             <section className="my-5">
-                <h1 className="my-5 fw-bold text-primary">Know More About Me</h1>
-                <Row className="my-5 gy-5">
+                <h1 className="fw-bold text-primary">Know More About Me</h1>
+                <Row className="mt-3 mb-5 gy-5">
                     <Col xs={ 12 } sm={ 12 } md={ 6 } lg={ 6 }>
                         <ExternalLink download href="https://drive.google.com/file/d/1DsUhL6cfpOjVEJnfgvO3c5BPBQzlDGKW/view?usp=sharing">
                             <Button className="btn btn-danger fw-bold fs-4 fy-5">Download My Resume</Button>
@@ -71,6 +38,46 @@ const Home = () => {
                 </Row>
             </section>
             <hr />
+            <section className="my-5">
+                <h1 className="fw-bold text-primary">My Services</h1>
+                <Row className="g-5 mx-auto mt-3 mb-5" style={ { width: '90%' } }>
+                    <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
+                        <Card style={ { width: '20rem', backgroundColor: '#F4F6F6' } } className="h-100 p-5 rounded-3 text-center">
+                            <Card.Img variant="top" src={ featureWeb } className="img-fluid" />
+                            <Card.Body>
+                                <Card.Title>Front-end Development</Card.Title>
+                                <Card.Text>
+                                    Responsive websites built for an optimal user experience that achieves your business goals.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
+                        <Card style={ { width: '20rem', backgroundColor: '#F4F6F6' } } className="h-100 p-5 rounded-3 text-center">
+                            <Card.Img variant="top" src={ featureTools } className="img-fluid" />
+                            <Card.Body>
+                                <Card.Title>Back-end Server and Database</Card.Title>
+                                <Card.Text>
+                                    Make your website fast with Node.js/Express.js and MongoDB NoSQL database systems running on Back-end.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
+                        <Card style={ { width: '20rem', backgroundColor: '#F4F6F6' } } className="h-100 p-5 rounded-3 text-center">
+                            <Card.Img variant="top" src={ featureWordpress } className="img-fluid" />
+                            <Card.Body>
+                                <Card.Title>WordPress Websites</Card.Title>
+                                <Card.Text>
+                                    Manage your website using the web's most popular content management system, which is fast and popular.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
+            </section>
+            <hr />
+
             <section className="my-5">
                 <h1 className="mb-3 fw-bold text-primary">My Skills</h1>
                 <h5 className="w-75 mx-auto mb-5">I have a strong knowledge of the following technologies:</h5>

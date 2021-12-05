@@ -17,7 +17,7 @@ const Header = () => {
                             alt="logo"
                         />
                     </NavLink>
-                    <span>Sami Meadad Choudhury</span>
+                    <NavLink to="/" className="text-decoration-none text-light fs-3"><span>Sami Meadad Choudhury</span></NavLink>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="offcanvasNavbar" />
                 <Navbar.Offcanvas
@@ -30,10 +30,11 @@ const Header = () => {
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <NavLink className="fs-1 mb-3 text-primary text-decoration-none" to="/home"><i class="fas fa-home"></i></NavLink>
-                            <NavLink className="fs-2 mb-3 text-primary text-decoration-none" to="/projects">My Projects</NavLink>
-                            <NavLink className="fs-2 mb-3 text-primary text-decoration-none" to="/about">My Profile</NavLink>
-                            <NavLink className="fs-2 text-primary text-decoration-none" to="/contact">Contact Me</NavLink>
+                            <NavLink className="fs-2 mb-3 text-primary text-decoration-none" to="/home"><i class="fas fa-home"></i></NavLink>
+                            <NavLink className="fs-4 mb-3 text-primary text-decoration-none" to="/projects">My Projects</NavLink>
+                            <NavLink className="fs-4 mb-3 text-primary text-decoration-none" to="/blogs">My Blogs</NavLink>
+                            <NavLink className="fs-4 mb-3 text-primary text-decoration-none" to="/about">About Me</NavLink>
+                            <NavLink className="fs-4 text-primary text-decoration-none" to="/contact">Contact Me</NavLink>
                         </Nav>
                     </Offcanvas.Body>
                 </Navbar.Offcanvas>
